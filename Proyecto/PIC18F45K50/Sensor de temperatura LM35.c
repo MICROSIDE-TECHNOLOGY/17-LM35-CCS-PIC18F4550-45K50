@@ -1,8 +1,10 @@
-/*
-AUTOR: MICROSIDE TECHNOLOGY S.A. DE C.V.
-FECHA: JUNIO 2019
-*/
-
+/************************************************************************************************
+Company:
+Microside Technology Inc.
+Product Revision  :  1
+Device            :  X-TRAINER
+Driver Version    :  1.0
+************************************************************************************************/
 /*
 ------------------------------------------------------------------------------
 Esta práctica consiste en realizar la medición de temperatura por medio de un
@@ -37,9 +39,7 @@ CONFIGURACION DE PINES LCD
 float temperatura;                //variable
 
 void main(void)
-
 {
-
   lcd_init ();                    // comandos de inicialización del lcd.
   delay_ms (50) ;
   setup_adc_ports (sAN0);         //configuracion indiuvidual deL canal ADC en A0
